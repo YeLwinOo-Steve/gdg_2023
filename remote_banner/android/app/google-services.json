@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "919514021411",
+    "project_id": "remote-banner",
+    "storage_bucket": "remote-banner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919514021411:android:596a77e4414c9a39c77b96",
+        "android_client_info": {
+          "package_name": "com.tuco_ye.remote_banner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOd628I7wFbuXbwAHuCzVVkRlF13SzOwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
