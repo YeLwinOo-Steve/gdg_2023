@@ -25,16 +25,18 @@ class RemoteConfigService {
     try {
       await _remoteConfig!.setConfigSettings(RemoteConfigSettings(
         fetchTimeout: const Duration(minutes: 1),
-        minimumFetchInterval: const Duration(seconds: 1),
+        minimumFetchInterval: const Duration(seconds: 0),
       ));
       await _remoteConfig!.setDefaults(defaults);
       await fetchAndActivate();
-    } on FirebaseException catch (ex) {
+    } on FirebaseException catch (ex,stacktrace) {
       print("exception occurred $ex");
+      print("stacktrace $stacktrace");
     }
   }
 
   Future fetchAndActivate() async {
+
     await _remoteConfig!.fetch();
     bool isActivated = await _remoteConfig!.fetchAndActivate();
   }
