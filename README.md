@@ -48,3 +48,6 @@ _____
 ### GDG Yangon 2023 Powerpoint Slides
 
 My slides for GDG Yangon 2023: https://speakerdeck.com/ye_lwin_oo/server-driven-ui-in-flutter
+
+
+### I'm also implementing a small web project for parsing Mirai JSON syntax to Flutter UI on the fly. Feel free to test at https://mirai-json-parser.vercel.app/
