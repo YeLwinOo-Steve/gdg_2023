@@ -1,0 +1,25 @@
+{
+  "type": "scaffold",
+  "body": {
+    "type": "column",
+    "mainAxisAlignment": "spaceAround",
+    "crossAxisAlignment": "center",
+    "children": [
+      {
+        "type": "container",
+        "alignment": "center",
+        "child": {
+          "type": "text",
+          "data" : "Hello Wee",
+          "style": {
+            "fontSize": 25
+          }
+        }
+      },
+      {
+        "type": "sizedBox",
+        "height": 30
+      }
+    ]
+  }
+}
